@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="30sp">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="open Browser"
+        android:textSize="25dp"
+        android:id="@+id/btnbrowser"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="20dp"
+        android:backgroundTint="#d3d3d3"
+        android:hint="Enter message"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:id="@+id/text"
+        android:textColorHint="#d3d3d3" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="send data"
+        android:textSize="25dp"
+        android:id="@+id/btnsenddata"
+        android:onClick="SendMessage"
+        />
+
+
+</LinearLayout>
